@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jionghang.github.io</id>
-    <title>狗航交友平台</title>
-    <updated>2021-03-16T01:41:58.696Z</updated>
+    <title>平台</title>
+    <updated>2021-03-16T02:15:30.651Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jionghang.github.io"/>
     <link rel="self" href="https://jionghang.github.io/atom.xml"/>
     <logo>https://jionghang.github.io/images/avatar.png</logo>
     <icon>https://jionghang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 狗航交友平台</rights>
+    <rights>All rights reserved 2021, 平台</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://jionghang.github.io/post/hello-gridea/</id>
