@@ -569,6 +569,8 @@ textarea:-ms-input-placeholder {
   -ms-transform: translate(120px, 0);
   transform: translate(120px, 0);
   text-indent: 0;
+  box-shadow: 0px 0px 1px #adadad;
+  width: 80px;
 }
 .navbar-mobile-menu:focus > ul,
 .navbar-mobile-menu:hover > ul,
@@ -584,13 +586,11 @@ textarea:-ms-input-placeholder {
 }
 .navbar-mobile-menu ul li a {
   font-size: 15px;
-  color: #ffffff;
   line-height: 2.2;
   display: block;
-  width: 80px;
-  margin-left: 60;
+  margin: 0;
   padding: 8px 25px;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(255, 255, 255, 0.75);
 }
 .navbar-search {
   line-height: 70px;
