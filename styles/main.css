@@ -499,48 +499,47 @@ textarea:-ms-input-placeholder {
   z-index: 1;
   display: none;
   width: 28px;
-  height: 70px;
   padding: 30px 45px 0 10px;
   cursor: pointer;
 }
-.navbar-mobile-menu:hover,
-.navbar-mobile-menu:active {
+.navbar-mobile-menu:active,
+.navbar-mobile-menu:hover {
   cursor: pointer;
 }
-.navbar-mobile-menu:hover:before,
-.navbar-mobile-menu:active:before {
+.navbar-mobile-menu:active:before,
+.navbar-mobile-menu:hover:before {
   -webkit-animation: pointer-ball 0.3s ease 1;
   animation: pointer-ball 0.3s ease 1;
   -webkit-animation-timing-function: cubic-bezier(0.61, 0.04, 0.17, 1.32);
   animation-timing-function: cubic-bezier(0.61, 0.04, 0.17, 1.32);
 }
-.navbar-mobile-menu:hover .icon-menu,
-.navbar-mobile-menu:active .icon-menu {
+.navbar-mobile-menu:active .icon-menu,
+.navbar-mobile-menu:hover .icon-menu {
   -webkit-transform: rotateZ(360deg);
   -ms-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
 }
-.navbar-mobile-menu:hover .icon-menu.cross .middle,
-.navbar-mobile-menu:hover .icon-menu.cross:after,
-.navbar-mobile-menu:hover .icon-menu.cross:before,
 .navbar-mobile-menu:active .icon-menu.cross .middle,
 .navbar-mobile-menu:active .icon-menu.cross:after,
-.navbar-mobile-menu:active .icon-menu.cross:before {
+.navbar-mobile-menu:active .icon-menu.cross:before,
+.navbar-mobile-menu:hover .icon-menu.cross .middle,
+.navbar-mobile-menu:hover .icon-menu.cross:after,
+.navbar-mobile-menu:hover .icon-menu.cross:before {
   background: #eb5055;
 }
-.navbar-mobile-menu:hover .icon-menu.cross .middle,
-.navbar-mobile-menu:active .icon-menu.cross .middle {
+.navbar-mobile-menu:active .icon-menu.cross .middle,
+.navbar-mobile-menu:hover .icon-menu.cross .middle {
   opacity: 0;
 }
-.navbar-mobile-menu:hover .icon-menu.cross:after,
-.navbar-mobile-menu:active .icon-menu.cross:after {
+.navbar-mobile-menu:active .icon-menu.cross:after,
+.navbar-mobile-menu:hover .icon-menu.cross:after {
   bottom: 5px;
   -webkit-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   transform: rotate(135deg);
 }
-.navbar-mobile-menu:hover .icon-menu.cross:before,
-.navbar-mobile-menu:active .icon-menu.cross:before {
+.navbar-mobile-menu:active .icon-menu.cross:before,
+.navbar-mobile-menu:hover .icon-menu.cross:before {
   top: 5px;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -560,7 +559,7 @@ textarea:-ms-input-placeholder {
   top: 100%;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
-  margin: 0 0 0 -35px;
+  margin: 0 0 0 -95px;
   padding: 0;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
@@ -569,13 +568,10 @@ textarea:-ms-input-placeholder {
   -ms-transform: translate(120px, 0);
   transform: translate(120px, 0);
   text-indent: 0;
-  box-shadow: 0px 0px 1.5px #adadad;
-  width: 80px;
 }
+.navbar-mobile-menu:active > ul,
 .navbar-mobile-menu:focus > ul,
-.navbar-mobile-menu:hover > ul,
-.navbar-mobile-menu:active > ul {
-  color: #ffa600;
+.navbar-mobile-menu:hover > ul {
   overflow: inherit;
   clip: inherit;
   -webkit-transition: -webkit-transform 0.3s;
@@ -588,12 +584,10 @@ textarea:-ms-input-placeholder {
   font-size: 15px;
   line-height: 2.2;
   display: block;
+  width: 140px;
   margin: 0;
   padding: 8px 25px;
-  background-color: #ffffff;
-}
-.navbar-mobile-menu li a {
-  margin-left: 60px;
+  background-color: #eee;
 }
 .navbar-search {
   line-height: 70px;
