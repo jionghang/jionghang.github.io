@@ -560,7 +560,7 @@ textarea:-ms-input-placeholder {
   top: 100%;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
-  margin: 0 0 0 -95px;
+  margin: 0 0 0 -35px;
   padding: 0;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
@@ -569,7 +569,7 @@ textarea:-ms-input-placeholder {
   -ms-transform: translate(120px, 0);
   transform: translate(120px, 0);
   text-indent: 0;
-  box-shadow: 0px 0px 1px #adadad;
+  box-shadow: 0px 0px 1.5px #adadad;
   width: 80px;
 }
 .navbar-mobile-menu:focus > ul,
@@ -590,7 +590,10 @@ textarea:-ms-input-placeholder {
   display: block;
   margin: 0;
   padding: 8px 25px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: #ffffff;
+}
+.navbar-mobile-menu li a {
+  margin-left: 60px;
 }
 .navbar-search {
   line-height: 70px;
