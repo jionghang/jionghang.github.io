@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jionghang.github.io</id>
     <title>狗航交友平台</title>
-    <updated>2021-03-22T16:17:53.294Z</updated>
+    <updated>2021-03-22T16:50:26.199Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jionghang.github.io"/>
     <link rel="self" href="https://jionghang.github.io/atom.xml"/>
@@ -24,7 +24,8 @@
 <!-- more -->
 <p>一本正经的测试内容</p>
 <h1 id="图片展示">图片展示</h1>
-<figure data-type="image" tabindex="1"><img src="https://jionghang.github.io/post-images/1616006038457.png" alt="" loading="lazy"></figure>
+<p><img src="https://jionghang.github.io/post-images/1616431802165.png" alt="" loading="lazy"><br>
+<img src="https://jionghang.github.io/post-images/1616006038457.png" alt="" loading="lazy"></p>
 <h1 id="基本资料">基本资料</h1>
 <h3 id="一本正经的测试内容">一本正经的测试内容</h3>
 <ul>
